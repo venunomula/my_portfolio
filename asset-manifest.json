@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.a9ba391c.css",
+    "main.js": "/my_portfolio/static/js/main.9c2ae947.js",
+    "static/js/453.d7446e4a.chunk.js": "/my_portfolio/static/js/453.d7446e4a.chunk.js",
+    "static/media/moviesearch.jpg": "/my_portfolio/static/media/moviesearch.5f84ebeb7c4250fd23e0.jpg",
+    "static/media/ecommerce.jpg": "/my_portfolio/static/media/ecommerce.2bb209964ecc33b73056.jpg",
+    "static/media/shortfilm.jpg": "/my_portfolio/static/media/shortfilm.1b0a39dbf91fea31f364.jpg",
+    "static/media/gallery.jpg": "/my_portfolio/static/media/gallery.2ca398ae595bd3f5fa6c.jpg",
+    "static/media/burger.jpg": "/my_portfolio/static/media/burger.59b11763ab487db52b09.jpg",
+    "static/media/WhatsApp Image 2025-10-05 at 18.02.16_8be45e4d.jpg": "/my_portfolio/static/media/WhatsApp Image 2025-10-05 at 18.02.16_8be45e4d.92b12fb39c9b298ff82b.jpg",
+    "index.html": "/my_portfolio/index.html",
+    "main.a9ba391c.css.map": "/my_portfolio/static/css/main.a9ba391c.css.map",
+    "main.9c2ae947.js.map": "/my_portfolio/static/js/main.9c2ae947.js.map",
+    "453.d7446e4a.chunk.js.map": "/my_portfolio/static/js/453.d7446e4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9ba391c.css",
+    "static/js/main.9c2ae947.js"
+  ]
+}
