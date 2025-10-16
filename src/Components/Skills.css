@@ -1,0 +1,1193 @@
+body{
+    background-color: black;
+}
+.skills-container{
+    /* height: 100vh; */
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.skills-container h1{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.skills-container span{
+    color: cyan;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.techinacal h3{
+  font-size:25px;
+}
+.html{
+    display: flex;
+    flex-direction: column;
+    margin-left: -150px;
+    margin-top: 70px;
+    gap: 10px;
+}
+.html .bi-filetype-html{
+    font-size: 20px;
+    color:cyan;
+}
+.html .bar{
+    width: 400px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.html .bar .bar-color{
+    width: 90%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: cyan;
+
+}
+.htmlper span{
+    color: white;
+}
+.per{
+    margin-left: 300px;
+}
+.css{
+    display: flex;
+    flex-direction: column;
+    margin-left: -150px;
+    margin-top: 40px;
+    gap: 10px;
+}
+.css .bi-css{
+    font-size: 20px;
+    color:cyan;
+}
+.css .bar{
+    width: 400px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.css .bar .bar-color{
+    width: 70%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.cssper span{
+    color: white;
+}
+.cssper .per{
+    margin-left: 240px;
+}
+.javascript{
+    display: flex;
+    flex-direction: column;
+    margin-left: -150px;
+    margin-top: 40px;
+    gap: 10px;
+}
+.javascript .bi-javascript{
+    font-size: 20px;
+    color:cyan;
+}
+.javascript .bar{
+    width: 400px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.javascript .bar .bar-color{
+    width: 70%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.javascriptper span{
+    color: white;
+}
+.javascriptper .per{
+    margin-left: 200px;
+}
+.react{
+    display: flex;
+    flex-direction: column;
+    margin-left: -150px;
+    margin-top: 40px;
+    gap: 10px;
+}
+.react img{
+    width: 28px;
+    color:cyan;
+}
+.react .bar{
+    width: 400px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.react .bar .bar-color{
+    width: 60%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.react span{
+    color: white;
+}
+.react .per{
+    margin-left:170px;
+}
+.sql{
+    display: flex;
+    flex-direction: column;
+    margin-left: -150px;
+    margin-top: 40px;
+    gap: 10px;
+}
+.sql .bi-filetype-sql{
+    font-size: 20px;
+    color:cyan;
+}
+.sql .bar{
+    width: 400px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.sql .bar .bar-color{
+    width: 70%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.sql span{
+    color: white;
+}
+.sql .per{
+    margin-left: 240px;
+}
+.git{
+    display: flex;
+    flex-direction: column;
+    margin-left: -150px;
+    margin-top: 40px;
+    gap: 10px;
+}
+.git .bi-git{
+    font-size: 20px;
+    color:cyan;
+}
+.git .bar{
+    width: 400px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.git .bar .bar-color{
+    width: 71%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.git span{
+    color: white;
+}
+.git .per{
+    margin-left: 250px;
+}
+.github{
+    display: flex;
+    flex-direction: column;
+    margin-left: -150px;
+    margin-top: 40px;
+    gap: 10px;
+}
+.github .bi-github{
+    font-size: 20px;
+    color:cyan;
+}
+.github .bar{
+    width: 400px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.github .bar .bar-color{
+    width: 65%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.github span{
+    color: white;
+}
+.github .per{
+    margin-left: 200px;
+}
+.Professional-skills{
+    display: flex;
+    flex-direction: column;
+}
+.Professional-skills h3{
+  font-size:25px;
+}
+.circles{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 50px;
+   align-items: center;
+   margin-top: 100px;
+   margin-left: -40px;
+}
+.circle1{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   font-size: 18px;
+}
+.circle1 p{
+    margin-top: 20px;
+}
+.creativity{
+    
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(cyan calc(var(--percentage)*1%), gray 0%);
+}
+.creativity .inner{
+    width: 100px;
+    height: 100px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: black;
+}
+.circle2{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   font-size: 18px;
+}
+.circle2 p{
+    margin-top: 20px;
+}
+.communication{
+    
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(cyan calc(var(--percentage)*1%), gray 0%);
+}
+.communication .inner{
+    width: 100px;
+    height: 100px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: black;
+}
+.circle3{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   font-size: 18px;
+}
+.circle3 p{
+    margin-top: 20px;
+}
+.problem{
+    
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(cyan calc(var(--percentage)*1%), gray 0%);
+}
+.problem .inner{
+    width: 100px;
+    height: 100px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: black;
+}
+.circle4{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   font-size: 18px;
+}
+.circle4 p{
+    margin-top: 20px;
+}
+.team{
+    
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(cyan calc(var(--percentage)*1%), gray 0%);
+}
+.team .inner{
+    width: 100px;
+    height: 100px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: black;
+}
+.circle5{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   font-size: 18px;
+}
+.circle5 p{
+    margin-top: 20px;
+}
+.direction{
+    
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(cyan calc(var(--percentage)*1%), gray 0%);
+}
+.direction .inner{
+    width: 100px;
+    height: 100px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: black;
+}
+@media (max-width:1245px){
+
+    .skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+}
+@media (max-width:800px){
+   .skills-container h1{
+    margin-left:160px;
+   
+   }
+    .skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+ .html .bar{
+    width: 400px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.Professional-skills{
+    margin-left: 150px;
+}
+}
+@media (max-width:600px){
+    .skills-container h1{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-size: 55px;
+    left: 70px;
+
+}
+    .skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+    gap: 100px;
+}
+.techinacal{
+    margin-left: 200px;
+}
+.techinacal h3{
+  font-size:40px;
+}
+.html .bi-filetype-html{
+    font-size:35px;
+    color:cyan;
+}
+.html .bar{
+    width: 500px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.html .bar .bar-color{
+    width: 90%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: cyan;
+
+}
+.htmlper span{
+    color: white;
+    font-size:25px;
+}
+.per{
+    margin-left:350px;
+}
+.css .bi-css{
+    color:cyan;
+    font-size:35px;
+}
+.css .bar{
+    width: 500px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.css .bar .bar-color{
+    width: 70%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.cssper span{
+    color: white;
+    font-size: 25px;
+}
+.cssper .per{
+    margin-left: 280px;
+}
+.javascript .bi-javascript{
+    font-size:35px;
+    color:cyan;
+}
+.javascript .bar{
+    width: 500px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.javascript .bar .bar-color{
+    width: 70%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.javascriptper span{
+    color: white;
+    font-size: 25px;
+}
+.javascriptper .per{
+    margin-left: 220px;
+}
+.react img{
+    width: 45px;
+    color:cyan;
+}
+.react .bar{
+    width: 500px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.react .bar .bar-color{
+    width: 60%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.react span{
+    color: white;
+    font-size: 25px;
+}
+.react .per{
+    margin-left:190px;
+}
+.sql .bi-filetype-sql{
+    font-size: 35px;
+    color:cyan;
+}
+.sql .bar{
+    width: 500px;
+    height: 10px;
+}
+.sql .bar .bar-color{
+    width: 70%;
+    height: 10px;
+}
+.sql span{
+    color: white;
+    font-size: 25px;
+}
+.sql .per{
+    margin-left: 270px;
+}
+.git .bi-git{
+    font-size: 35px;
+    color:cyan;
+}
+.git .bar{
+    width: 500px;
+    height:10px;
+}
+.git .bar .bar-color{
+    width: 71%;
+    height: 10px;
+}
+.git span{
+    color: white;
+    font-size: 25px;
+}
+.git .per{
+    margin-left: 300px;
+}
+.github .bi-github{
+    font-size:35px;
+    color:cyan;
+}
+.github .bar{
+    width:500px;
+    height:10px;
+}
+.github .bar .bar-color{
+    width: 65%;
+    height:10px;
+}
+.github span{
+    color: white;
+    font-size: 25px;
+}
+.github .per{
+    margin-left: 220px;
+}
+.Professional-skills{
+    display: flex;
+    flex-direction: column;
+}
+.Professional-skills h3{
+  font-size:40px;
+  margin-left:40px;
+}
+.circles{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 170px;
+   row-gap: 60px;
+   align-items: center;
+   margin-top: 100px;
+   margin-left: -40px;
+}
+.circle1 p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.creativity{
+    
+    width: 160px;
+    height: 160px;
+}
+.creativity .inner{
+    width: 140px;
+    height: 140px;
+    font-size: 30px;
+}
+.circle2 p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.communication{
+    
+    width: 160px;
+    height: 160px;
+}
+.communication .inner{
+    width: 140px;
+    height: 140px;
+    font-size: 30px;
+}
+.circle3 p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.problem{
+    
+    width: 160px;
+    height: 160px;
+}
+.problem .inner{
+    width: 140px;
+    height: 140px;
+    font-size: 30px;
+}
+.circle4 p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.team{
+    
+    width: 160px;
+    height: 160px;
+}
+.team .inner{
+    width: 140px;
+    height: 140px;
+    font-size: 30px;
+}
+.circle5 p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.direction{
+    
+    width: 160px;
+    height: 160px;
+}
+.direction .inner{
+    width: 140px;
+    height: 140px;
+    font-size: 30px;
+}
+}
+@media (max-width:450px){
+    .skills-container h1{
+    position: relative;
+    top: 150px;
+    left: -30px;
+    width: 700px;
+    text-align: center;
+    font-size: 75px;
+
+}
+.techinacal{
+    margin-left:750px;
+    width: 700px;
+}
+.techinacal h3{
+  font-size:55px;
+}
+.html .bi-filetype-html{
+    font-size:45px;
+    color:cyan;
+}
+.html .bar{
+    width: 550px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.html .bar .bar-color{
+    width: 90%;
+    height: 14px;
+    border-radius: 50px;
+    background-color: cyan;
+
+}
+.htmlper span{
+    color: white;
+    font-size:35px;
+}
+.per{
+    margin-left:350px;
+}
+.css .bi-css{
+    color:cyan;
+    font-size:45px;
+}
+.css .bar{
+    width: 550px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.css .bar .bar-color{
+    width: 70%;
+    height: 14px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.cssper span{
+    color: white;
+    font-size: 35px;
+}
+.cssper .per{
+    margin-left: 280px;
+}
+.javascript .bi-javascript{
+    font-size:45px;
+    color:cyan;
+}
+.javascript .bar{
+    width: 550px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.javascript .bar .bar-color{
+    width: 70%;
+    height: 14px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.javascriptper span{
+    color: white;
+    font-size:35px;
+}
+.javascriptper .per{
+    margin-left: 220px;
+}
+.react img{
+    width: 55px;
+    color:cyan;
+}
+.react .bar{
+    width: 550px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.react .bar .bar-color{
+    width: 60%;
+    height: 14px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.react span{
+    color: white;
+    font-size:35px;
+}
+.react .per{
+    margin-left:190px;
+}
+.sql .bi-filetype-sql{
+    font-size: 45px;
+    color:cyan;
+}
+.sql .bar{
+    width: 550px;
+    height: 14px;
+}
+.sql .bar .bar-color{
+    width: 70%;
+    height: 14px;
+}
+.sql span{
+    color: white;
+    font-size:35px;
+}
+.sql .per{
+    margin-left: 270px;
+}
+.git .bi-git{
+    font-size:45px;
+    color:cyan;
+}
+.git .bar{
+    width: 550px;
+    height:14px;
+}
+.git .bar .bar-color{
+    width: 71%;
+    height: 14px;
+}
+.git span{
+    color: white;
+    font-size:35px;
+}
+.git .per{
+    margin-left: 300px;
+}
+.github .bi-github{
+    font-size:45px;
+    color:cyan;
+}
+.github .bar{
+    width:550px;
+    height:14px;
+}
+.github .bar .bar-color{
+    width: 65%;
+    height:14px;
+}
+.github span{
+    color: white;
+    font-size:35px;
+}
+.github .per{
+    margin-left: 220px;
+}
+.Professional-skills{
+    display: flex;
+    flex-direction: column;
+}
+.Professional-skills h3{
+  font-size:55px;
+  margin-left:250px;
+}
+.circles{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 150px;
+   row-gap: 60px;
+   align-items: center;
+   margin-top: 100px;
+   margin-left:200px;
+}
+.circle1 p{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.creativity{
+    
+    width: 180px;
+    height: 180px;
+}
+.creativity .inner{
+    width: 150px;
+    height: 150px;
+    font-size:35px;
+}
+.circle2 p{
+    margin-top: 20px;
+    font-size:35px;
+}
+.communication{
+    
+    width: 180px;
+    height: 180px;
+}
+.communication .inner{
+    width: 150px;
+    height: 150px;
+    font-size: 35px;
+}
+.circle3 p{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.problem{
+    
+    width: 180px;
+    height: 180px;
+}
+.problem .inner{
+    width: 150px;
+    height: 150px;
+    font-size: 35px;
+}
+.circle4 p{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.team{
+    
+    width: 180px;
+    height: 180px;
+}
+.team .inner{
+    width: 150px;
+    height: 150px;
+    font-size: 35px;
+}
+.circle5 p{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.direction{
+    
+    width: 180px;
+    height: 180px;
+}
+.direction .inner{
+    width: 150px;
+    height: 150px;
+    font-size: 35px;
+}
+}
+@media (max-width:400px){
+     .skills-container{
+        width: 900px;
+     }
+    .skills-container h1{
+    position: relative;
+    top: 150px;
+    left: 30px;
+    text-align: center;
+    font-size: 95px;
+
+}
+.techinacal{
+    margin-left:350px;
+}
+.techinacal h3{
+  font-size:75px;
+  margin-left: -80px;
+}
+.html .bi-filetype-html{
+    font-size:60px;
+    color:cyan;
+}
+.html .bar{
+    width: 550px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.html .bar .bar-color{
+    width: 90%;
+    height: 14px;
+    border-radius: 50px;
+    background-color: cyan;
+
+}
+.htmlper span{
+    color: white;
+    font-size:45px;
+}
+.per{
+    margin-left:350px;
+}
+.css .bi-css{
+    color:cyan;
+    font-size:60px;
+}
+.css .bar{
+    width: 550px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.css .bar .bar-color{
+    width: 70%;
+    height: 14px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.cssper span{
+    color: white;
+    font-size:45px;
+}
+.cssper .per{
+    margin-left: 280px;
+}
+.javascript .bi-javascript{
+    font-size:60px;
+    color:cyan;
+}
+.javascript .bar{
+    width: 550px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.javascript .bar .bar-color{
+    width: 70%;
+    height: 14px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.javascriptper span{
+    color: white;
+    font-size:45px;
+}
+.javascriptper .per{
+    margin-left: 220px;
+}
+.react img{
+    width: 75px;
+    color:cyan;
+}
+.react .bar{
+    width: 550px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: grey;
+}
+.react .bar .bar-color{
+    width: 60%;
+    height: 14px;
+    border-radius: 50px;
+    background-color: cyan;
+}
+.react span{
+    color: white;
+    font-size:45px;
+}
+.react .per{
+    margin-left:190px;
+}
+.sql .bi-filetype-sql{
+    font-size: 60px;
+    color:cyan;
+}
+.sql .bar{
+    width: 550px;
+    height: 14px;
+}
+.sql .bar .bar-color{
+    width: 70%;
+    height: 14px;
+}
+.sql span{
+    color: white;
+    font-size:45px;
+}
+.sql .per{
+    margin-left: 270px;
+}
+.git .bi-git{
+    font-size:60px;
+    color:cyan;
+}
+.git .bar{
+    width: 550px;
+    height:14px;
+}
+.git .bar .bar-color{
+    width: 71%;
+    height: 14px;
+}
+.git span{
+    color: white;
+    font-size:45px;
+}
+.git .per{
+    margin-left: 300px;
+}
+.github .bi-github{
+    font-size:60px;
+    color:cyan;
+}
+.github .bar{
+    width:550px;
+    height:14px;
+}
+.github .bar .bar-color{
+    width: 65%;
+    height:14px;
+}
+.github span{
+    color: white;
+    font-size:45px;
+}
+.github .per{
+    margin-left: 220px;
+}
+.Professional-skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: -200px;
+}
+.Professional-skills h3{
+  font-size:75px;
+  margin-left:200px;
+}
+.circles{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 150px;
+   row-gap: 60px;
+   align-items: center;
+   margin-top: 100px;
+   margin-left:200px;
+}
+.circle1 p{
+    margin-top: 20px;
+    font-size:50px;
+}
+.creativity{
+    
+    width: 230px;
+    height: 230px;
+}
+.creativity .inner{
+    width: 200px;
+    height: 200px;
+    font-size:50px;
+}
+.circle2 p{
+    margin-top: 20px;
+    font-size:50px;
+}
+.communication{
+    
+    width: 230px;
+    height: 230px;
+}
+.communication .inner{
+    width: 200px;
+    height:200px;
+    font-size:50px;
+}
+.circle3 p{
+    margin-top: 20px;
+    font-size: 50px;
+     margin-left: 30px;
+}
+.problem{
+    
+    width: 230px;
+    height: 230px;
+}
+.problem .inner{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+}
+.circle4 p{
+    margin-top: 20px;
+    font-size: 50px;
+   
+}
+.team{
+    
+    width: 230px;
+    height: 230px;
+}
+.team .inner{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+}
+.circle5 p{
+    margin-top: 20px;
+    font-size: 50px;
+}
+.direction{
+    
+    width: 230px;
+    height: 230px;
+}
+.direction .inner{
+    width: 200px;
+    height:200px;
+    font-size:50px;
+}
+}

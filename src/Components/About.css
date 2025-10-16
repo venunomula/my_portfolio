@@ -1,0 +1,267 @@
+.about{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns:1.5fr 1fr;
+
+}
+.small-profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px white,0px 0px 15px white,0px 0px 25px white,0px 0px 50px white;
+    margin-left: 160px;
+    margin-top: 180px;
+}
+.small-profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.description{
+    margin: 20px 35px;
+    margin-top: 80px;
+}
+.description h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.description span{
+    color: cyan;
+}
+.description h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: cyan;
+}
+.description p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.description button{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    background-color: cyan;
+    outline: none;
+    cursor: pointer;
+    animation: slidertop 1s ease forwards;
+   
+}
+.description button:hover{
+     box-shadow: 0px 0px 3px cyan,0px 0px 9px cyan,0px 0px 18px cyan,0px 0px 32px cyan;
+}
+@media (max-width:1024px){
+    .about{
+    background-color: black;
+    color: white;
+    display: grid;
+    margin-bottom: 170px;
+    grid-template-columns:1.5fr 1fr;
+
+}
+.small-profile{
+    width: 220px;
+    height: 220px;
+}
+
+}
+@media (max-width:800px){
+    .about{
+    background-color: black;
+    color: white;
+    display: grid;
+    margin-bottom: 400px;
+    margin-top: 100px;
+    grid-template-columns:1.5fr 1fr;
+
+}
+.small-profile{
+    width: 220px;
+    height: 220px;
+    margin-left: 100px;
+    margin-top: 300px;
+    margin-right: 300px;
+}
+.description{
+    margin-left: -50px;
+    margin-right: -100px;
+    margin-top: 120px;
+}
+.description h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.description span{
+    color: cyan;
+}
+.description h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: cyan;
+}
+.description p{
+    font-size: 21px;
+    line-height: 28px;
+}
+.description button{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    background-color: cyan;
+    outline: none;
+    cursor: pointer;
+    animation: slidertop 1s ease forwards;
+   
+}
+
+}
+@media (max-width:770px){
+    .about{
+    background-color: black;
+    color: white;
+    display: grid;
+    margin-bottom: 400px;
+    margin-top: 100px;
+    grid-template-columns:1.5fr 1fr;
+
+}
+.small-profile{
+    width: 220px;
+    height: 220px;
+    margin-left: 100px;
+    margin-top: 300px;
+    margin-right: 100px;
+}
+.description{
+    margin-left: -50px;
+    margin-right: -200px;
+    margin-top: 120px;
+}
+.description h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.description span{
+    color: cyan;
+}
+.description h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: cyan;
+}
+.description p{
+    font-size: 24px;
+    line-height: 28px;
+}
+.description button{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    background-color: cyan;
+    outline: none;
+    cursor: pointer;
+    animation: slidertop 1s ease forwards;
+   
+}
+
+}
+@media (max-width:600px){
+    .about{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.small-profile{
+    display: none;
+}
+.description{
+    margin-left: 100px;
+}
+.description h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.description h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: cyan;
+}
+.description p{
+    font-size: 28px;
+    line-height: 35px;
+}
+.description button{
+   width: 250px;
+    height: 60px;
+    margin-top: 60px;
+    font-size: 23px;
+}
+
+}
+@media (max-width:450px){
+    .description{
+    margin-left:180px;
+    margin-top: 180px;
+    width: 700px;
+}
+.description h1{
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+.description h3{
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: cyan;
+}
+.description p{
+    font-size: 38px;
+    line-height: 55px;
+}
+.description button{
+   width: 350px;
+    height: 80px;
+    margin-top: 60px;
+    font-size: 33px;
+    border-radius: 40px;
+}
+}
+@media (max-width:400px){
+    .description{
+    margin-left:100px;
+    margin-top: 180px;
+    width: 900px;
+    }
+.description h1{
+    font-size: 95px;
+    margin-bottom: 10px;
+}
+.description h3{
+    font-size: 70px;
+    margin-bottom: 30px;
+    color: cyan;
+}
+.description p{
+    font-size: 50px;
+    line-height:70px;
+}
+.description button{
+     width: 400px;
+    height: 120px;
+    margin-top:60px;
+    font-size:40px;
+    border-radius: 60px;
+}
+}

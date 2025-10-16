@@ -1,0 +1,407 @@
+.contact{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.contact h1 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.contact span {
+  color: cyan;
+}
+.details{
+    display: flex;
+    justify-content:space-around ;
+    margin: 150px 80px;
+    
+}
+.details-me{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 18px;
+    margin-right: 80px;
+
+}
+.details-me h3{
+   font-size: 28px;
+   margin-bottom: 30px;
+}
+.details-me p{
+    line-height: 30px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+}
+.email{
+    display: flex;
+    gap: 10px;
+}
+.email .bi-envelope{
+    font-size: 18px;
+    color: cyan;
+    margin-top:6.5px ;
+    
+}
+.phone{
+    display: flex;
+    gap: 10px;
+    margin-top: -10px;
+}
+.phone .bi-telephone{
+     font-size: 18px;
+    color: cyan;
+    margin-top:6px ;
+}
+.details-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details-form form input{
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.details-form form .message{
+    height: 250px; 
+    width: 600px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+    resize: none;
+    padding-top: 5px;
+    
+}
+.details-form form  button{
+    height: 40px; 
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: cyan;
+}
+.details-form form  button:hover{
+     box-shadow: 0px 0px 3px cyan,0px 0px 9px cyan,0px 0px 18px cyan,0px 0px 32px cyan;
+}
+.footer{
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 255, 255, 0.55);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:1245px){
+    .footer{
+    width: 100%; 
+    margin-top: 100px; 
+    }
+    .details{
+    display: flex;
+    justify-content:space-around ;
+    margin: 150px 80px;
+    
+}
+}
+@media (max-width:1024px){
+    .footer{
+    width: 100%; 
+    margin-top: 130px; 
+    }
+    .details{
+    display: flex;
+    justify-content:space-around ;
+    margin: 150px 80px;
+    
+}
+.details-me{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-right: 80px;
+
+}
+.details-form form input{
+    width: 500px;
+    height: 40px;
+    padding-left: 20px;
+}
+.details-form form .message{
+    height: 250px; 
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+    resize: none;
+    padding-top: 5px;
+    
+}
+.details-form form  button{
+    height: 40px; 
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: cyan;
+}
+}
+@media (max-width:800px){
+    .contact{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+}
+    .footer{
+    width: 900px; 
+    margin-top: 450px; 
+    }
+    .details{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    
+}
+.details-me{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right:0px;
+    margin-left: 100px;
+
+}
+.details-form form {
+    margin-left: 70px;
+}
+
+}
+@media (max-width:600px){
+    .footer{
+    width: 900px;
+    height:70px; 
+    font-size: 25px;
+    margin-top: 600px; 
+    }
+    .contact h1 {
+   left: 80px;
+  font-size: 55px;
+}
+.details-me h3{
+   font-size:40px;
+   margin-bottom: 30px;
+}
+.details-me p{
+    line-height: 35px;
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    justify-content:space-around ;
+    margin: 150px 0px;
+    
+}
+.details-me{
+    margin-top: 50px;
+    margin-right:0px;
+    margin-left:250px;
+    width: 750px;
+
+}
+.email .bi-envelope{
+    font-size: 25px;
+    
+}
+.phone .bi-telephone{
+     font-size:25px;
+}
+.details-form {
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.details-form form input{
+    width: 600px;
+    height: 60px;
+    padding-left: 20px;
+    font-size: 22px;
+}
+.details-form form .message{
+     width: 600px;
+    height: 200px;
+    font-size: 23px;
+    padding-left: 20px;
+}
+.details-form form  button{
+    height: 60px; 
+    width: 600px;
+    border-radius: 30px;
+    font-size: 25px;
+
+   
+}
+
+
+
+}
+@media (max-width:450px){
+    .footer{
+    width: 1100px;
+    height:120px; 
+    font-size: 40px;
+    margin-top: 1100px; 
+    }
+    .contact{
+        width: 700px;
+    }
+    .contact h1 {
+   left: 150px;
+  font-size: 75px;
+}
+.details{
+    margin-left:80px;
+}
+.details-me h3{
+   font-size:55px;
+   margin-bottom: 30px;
+}
+.details-me p{
+    line-height:50px;
+    font-size: 40px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+}
+.details-me{
+    margin-top: 50px;
+    margin-right:0px;
+    margin-left:250px;
+    width: 750px;
+
+}
+.email .bi-envelope{
+    font-size:40px;
+    
+}
+.phone .bi-telephone{
+     font-size:40px;
+}
+.details-form {
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.details-form form input{
+    width: 700px;
+    height: 100px;
+    padding-left: 20px;
+    font-size: 32px;
+}
+.details-form form .message{
+     width: 700px;
+    height: 300px;
+    font-size: 33px;
+    padding-left: 20px;
+}
+.details-form form  button{
+    height: 100px; 
+    width: 700px;
+    border-radius: 50px;
+    font-size:35px;
+
+   
+}
+}
+@media (max-width:400px){
+    .footer{
+    width: 1100px;
+    height:150px; 
+    font-size: 50px;
+    margin-top: 1400px; 
+    }
+    .contact{
+        width: 900px;
+    }
+    .contact h1 {
+   left: 90px;
+  font-size:95px;
+}
+.details{
+    margin-left:-100px;
+}
+.details-me h3{
+   font-size:75px;
+   margin-bottom: 30px;
+}
+.details-me p{
+    line-height:55px;
+    font-size: 50px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+}
+.details-me{
+    margin-top: 50px;
+    margin-right:0px;
+    margin-left:250px;
+    width: 750px;
+
+}
+.email .bi-envelope{
+    font-size:50px;
+    
+}
+.phone .bi-telephone{
+     font-size:50px;
+}
+.details-form {
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.details-form form input{
+    width: 750px;
+    height: 100px;
+    padding-left: 20px;
+    font-size: 42px;
+}
+.details-form form .message{
+     width: 750px;
+    height: 300px;
+    font-size: 43px;
+    padding-left: 20px;
+}
+.details-form form  button{
+    height: 100px; 
+    width: 750px;
+    border-radius: 50px;
+    font-size:45px;
+
+   
+}
+}

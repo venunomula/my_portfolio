@@ -1,0 +1,384 @@
+.education{
+    background-color:black;
+    color: white;
+}
+.education h1{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.education span{
+color: cyan;
+}
+.schooling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    gap: 150px;
+}
+.edu{
+    width: 300px;
+    height: 200px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+.edu-detail{
+    width: 300px;
+    height: 400px;
+    margin-top: -160px;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.edu-detail h1{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -70px;
+}
+.edu-detail h3{
+    color: black;
+    font-weight: 600;
+    margin-top: 140px;
+    font-size: 22px;
+    text-align: center;
+}
+.edu-detail h2{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size: 28px;
+    text-align: center;
+}
+.edu-detail h4{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size: 25px;
+    text-align: center;
+}
+@media (max-width:1245px){
+    .education{
+    height: 100vh;
+    background-color:black;
+    color: white;
+    margin-top: 100px;
+}
+.schooling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    gap: 100px;
+}
+
+}
+@media (max-width:1024px){
+    .education{
+    height: 100vh;
+    background-color:black;
+    color: white;
+    margin-top: 100px;
+}
+.schooling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    gap: 60px;
+}
+.edu{
+    width: 280px;
+    height: 180px;
+    color: black;
+    font-size: 28px;
+}
+.edu-detail{
+    width: 280px;
+    height: 380px;
+    margin-top: -160px;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.edu-detail h1{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: -70px;
+}
+.edu-detail h3{
+    color: black;
+    font-weight: 600;
+    margin-top: 140px;
+    font-size: 20px;
+    text-align: center;
+}
+.edu-detail h2{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size: 26px;
+    text-align: center;
+}
+.edu-detail h4{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size: 23px;
+    text-align: center;
+}
+
+}
+@media (max-width:800px){
+    .education{
+    margin-bottom: 500px;
+}
+.education h1{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.schooling{
+    display: grid;
+    grid-template-columns:1fr;
+    margin-top: 200px;
+    margin-left: 340px;
+    gap: 80px;
+    row-gap: 100px;
+    
+}
+.edu{
+    width: 300px;
+    height: 200px;
+    color: black;
+    font-size: 28px;
+}
+.edu-detail{
+    width: 400px;
+    height: 350px;
+    margin-top: -50px;
+    margin-left: -50px;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.edu-detail h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -70px;
+    margin-left: -20px;
+}
+.edu-detail h3{
+    color: black;
+    font-weight: 600;
+    margin-top: 140px;
+    font-size: 25px;
+    text-align: center;
+}
+.edu-detail h2{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size: 28px;
+    text-align: center;
+}
+.edu-detail h4{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+}
+@media (max-width:600px){
+     .education{
+        margin-bottom: 700px;
+        margin-top: -300px;
+     }
+    .education h1{
+    margin-left: 250px;
+    margin-top: 100px;
+     font-size: 55px;
+     margin-bottom: 250px;
+}
+.edu{
+    width: 350px;
+    height: 250px;
+    color: black;
+    font-size:40px;
+}
+.edu-detail{
+    width: 400px;
+    height: 350px;
+    margin-top: -50px;
+    margin-left: -20px;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.edu-detail h1{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: -70px;
+    margin-bottom: 0px;
+    margin-left: -20px;
+}
+.edu-detail h3{
+    color: black;
+    font-weight: 600;
+    margin-top: 140px;
+    font-size: 28px;
+    text-align: center;
+}
+.edu-detail h2{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size:35px;
+    text-align: center;
+}
+.edu-detail h4{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size: 28px;
+    text-align: center;
+}
+
+}
+@media (max-width:450px){
+      .education{
+        margin-bottom: 1000px;
+        margin-top: -300px;
+        width: 700px;
+     }
+    .education h1{
+    margin-left: 180px;
+    margin-top: 100px;
+     font-size: 75px;
+     margin-bottom: 250px;
+}
+.edu{
+    width: 450px;
+    height: 350px;
+    color: black;
+    font-size:55px;
+    margin-left: -100px;
+}
+.edu-detail{
+    width: 500px;
+    height: 450px;
+    margin-top: -50px;
+    margin-left: -120px;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.edu-detail h1{
+    color: black;
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: -70px;
+    margin-bottom: 0px;
+    margin-left: -20px;
+}
+.edu-detail h3{
+    color: black;
+    font-weight: 600;
+    margin-top: 140px;
+    font-size: 38px;
+    text-align: center;
+}
+.edu-detail h2{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size:45px;
+    text-align: center;
+}
+.edu-detail h4{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size: 38px;
+    text-align: center;
+}
+}
+@media (max-width:400px){
+      .education{
+        margin-bottom: 1300px;
+        margin-top: -300px;
+        width: 900px;
+     }
+    .education h1{
+    margin-left: 180px;
+    margin-top: 140px;
+     font-size: 95px;
+     margin-bottom: 250px;
+}
+.edu{
+    width: 600px;
+    height: 450px;
+    color: black;
+    row-gap: 50px;
+    font-size:70px;
+    margin-left: -100px;
+}
+.edu-detail{
+    width: 750px;
+    height: 600px;
+    margin-top: -50px;
+    /* margin-left: -120px; */
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.edu-detail h1{
+    color: black;
+    font-size: 75px;
+    font-weight: 600;
+    margin-top: -70px;
+    margin-bottom: 0px;
+    margin-left: -20px;
+}
+.edu-detail h3{
+    color: black;
+    font-weight: 600;
+    margin-top: 140px;
+    font-size:55px;
+    text-align: center;
+}
+.edu-detail h2{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size:60px;
+    text-align: center;
+}
+.edu-detail h4{
+    color: black;
+    font-weight: 600;
+    margin-top:30px;
+    font-size:50px;
+    text-align: center;
+}
+}
